@@ -19,7 +19,7 @@
         android:layout_alignParentEnd="true"
         android:textSize="16sp"
         android:text="Salvar"
-        android:background="@color/lightGreen"
+        android:background="@color/lightGray"
         android:textColor="@color/black"
         android:textStyle="bold" />
 </RelativeLayout>
