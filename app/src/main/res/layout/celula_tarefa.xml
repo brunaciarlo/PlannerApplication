@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
             tool:text="Exemplo de tarefa no aplicativo"
+            android:textSize="18sp"
             android:buttonTint="@color/lightGreen"
             android:checked="true" />
 
