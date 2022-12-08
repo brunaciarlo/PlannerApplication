@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Planner</string>
+    <string name="seta_avancar"><![CDATA[->]]></string>
+    <string name="seta_voltar"><![CDATA[<-]]></string>
+    <string name="semanal">Semanal</string>
+    <string name="AdicionaEvento">Adicionar Evento</string>
+    <string name="Eventos">Ver Eventos</string>
+
+</resources>
