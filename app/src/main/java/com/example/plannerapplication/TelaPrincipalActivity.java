@@ -18,9 +18,4 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AgendaActivity.class);
         startActivity(intent);
     }
-
-    public void abrePreferencias(View view) {
-        Intent intent = new Intent(this, PreferenciasActivity.class);
-        startActivity(intent);
-    }
 }

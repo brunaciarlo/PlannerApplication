@@ -38,17 +38,4 @@
         android:textColor="@color/white"
         android:textSize="23sp"
         android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/AbrirPreferenciasButton"
-        android:layout_width="162dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@color/darkGray"
-        android:onClick="abrePreferencias"
-        android:text="Preferencias"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 </LinearLayout>

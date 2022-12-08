@@ -40,4 +40,7 @@ public class CadastroEventoActivity extends AppCompatActivity {
     public void excluirEvento(View view) {
 
     }
+
+    public void salvarAltercoes(View view) {
+    }
 }

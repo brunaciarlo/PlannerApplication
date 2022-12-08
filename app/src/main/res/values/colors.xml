@@ -9,4 +9,7 @@
     <color name="red">#d30000</color>
     <color name="lightBlue">#63E5FF</color>
     <color name="lightGreen">#8CE68C</color>
+    <color name="lightPink">#E44B8D</color>
+    <color name="lightPurple">#AF69EE</color>
+    <color name="lightYellow">#ECE75F</color>
 </resources>

@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:text="Evento"
         android:textStyle="bold"
-
         android:maxLines="1"
         android:layout_marginTop="5dp"
         android:textColor="@color/darkGray"

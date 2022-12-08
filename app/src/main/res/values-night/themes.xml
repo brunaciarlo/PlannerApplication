@@ -11,16 +11,25 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="SCREEN">
-    <item name="android:background">#232323</item>
+    <style name="BLUE">
+        <item name="android:textColor">@color/lightPink</item>
     </style>
 
-    <style name="TEXT">
-    <item name="android:textColor">#FFF</item>
+    <style name="BLUEBG">
+        <item name="android:background">@color/lightPink</item>
     </style>
 
-    <style name="BUTTON">
-    <item name="android:background">@color/lightGray</item>
-    <item name="android:textColor">#000</item>
+    <style name="GREEN">
+        <item name="android:background">@color/lightPurple</item>
     </style>
+
+    <style name="LIGHTBLUE">
+        <item name="android:background">@color/lightYellow</item>
+    </style>
+
+    <style name="BUTTONBLUE">
+        <item name="android:background">@color/lightPink</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
 </resources>
