@@ -1,6 +1,7 @@
 package com.example.plannerapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -40,6 +41,8 @@ public class ToDoListActivity extends AppCompatActivity implements DialogCloseLi
         tarefasRecyclerView.setAdapter(tarefasAdapter);
 
         fab = findViewById(R.id.botaoFlutuante);
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new RecyclerItemTouchHelper(tarefasAdapter));
+        itemTouchHelper.attachToRecyclerView(tarefasRecyclerView);
 
         listaTarefas = db.todasTarefas();
         Collections.reverse(listaTarefas);

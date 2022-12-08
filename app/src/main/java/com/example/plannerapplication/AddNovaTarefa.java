@@ -94,6 +94,7 @@ public class AddNovaTarefa extends BottomSheetDialogFragment {
                     ToDoModelo tarefa = new ToDoModelo();
                     tarefa.setTarefa(texto);
                     tarefa.setStatus(0);
+                    db.inserirTarefa(tarefa);
                 }
                 dismiss();
             }

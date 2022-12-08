@@ -62,6 +62,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
     public Context getContext(){
         return activity;
     }
+
     public void deleteItem(int position){
         ToDoModelo item = toDoList.get(position);
         db.excluirTarefa(item.getId());
