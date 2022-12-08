@@ -77,6 +77,18 @@ public class BancoDadosEventos extends SQLiteOpenHelper {
         }
     }
 
+    public Evento EventoSelecionadoPorId (int id){
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT * FROM eventos WHERE id=?", new String[]{String.valueOf(id)});
+        c.moveToFirst();
+        if(c.getCount() == 1) {
+            String nome = c.getString(c.getColumnIndex("nome"));
+            String data = c.getString(c.getColumnIndex("data"));
+            String hora = c.getString(c.getColumnIndex("hora"));
+            return new Evento(id, nome, data, hora);
+        }return null;
+    }
+
     public void editarEvento(Evento evento){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();

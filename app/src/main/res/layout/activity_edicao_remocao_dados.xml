@@ -35,7 +35,7 @@
         android:textColor="@color/black" />
 
     <EditText
-        android:id="@+id/nomeEventoEditText"
+        android:id="@+id/novoNomeEventoEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -58,7 +58,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/dataEventoEditText"
+            android:id="@+id/novaDataEventoEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -84,12 +84,12 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/horaEventoEditText"
+            android:id="@+id/novoHorarioEventoEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="4"
-            android:inputType="time"
+            android:inputType="date"
             android:textSize="20sp" />
 
     </androidx.appcompat.widget.Toolbar>

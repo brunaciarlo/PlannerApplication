@@ -31,11 +31,25 @@
         android:layout_width="120dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:background="@color/blue"
         android:onClick="abreCalendario"
         android:text="Agenda"
         android:textColor="@color/white"
         android:textSize="23sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AbrirToDoListButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/lightGreen"
+        android:onClick="abreToDoList"
+        android:text="To Do"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
 </LinearLayout>

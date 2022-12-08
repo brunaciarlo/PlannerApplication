@@ -18,4 +18,9 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AgendaActivity.class);
         startActivity(intent);
     }
+
+    public void abreToDoList(View view) {
+        Intent intent = new Intent(this, ToDoListActivity.class);
+        startActivity(intent);
+    }
 }

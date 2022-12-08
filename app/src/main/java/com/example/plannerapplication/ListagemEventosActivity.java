@@ -2,7 +2,10 @@ package com.example.plannerapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class ListagemEventosActivity extends AppCompatActivity {
@@ -17,7 +20,15 @@ public class ListagemEventosActivity extends AppCompatActivity {
         initWidgets();
         salvarNoBD();
         setEventoAdapter();
-//        editarEvento();
+
+//        eventosListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//                Intent intent = new Intent(ListagemEventosActivity.this, EdicaoRemocaoDados.class);
+//
+//                startActivity(intent);
+//            }
+//        });
     }
 
 
