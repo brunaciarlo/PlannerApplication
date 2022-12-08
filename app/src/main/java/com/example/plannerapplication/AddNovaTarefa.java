@@ -83,11 +83,12 @@ public class AddNovaTarefa extends BottomSheetDialogFragment {
             }
         });
 
+        boolean finalIsUpdate = isUpdate;
         novaTarefaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String texto = novaTarefaEditText.getText().toString();
-                if (isUpdate){
+                if (finalIsUpdate){
                     db.updateTarefa(bundle.getInt("id"), texto);
                 } else {
                     ToDoModelo tarefa = new ToDoModelo();

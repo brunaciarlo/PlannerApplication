@@ -21,7 +21,7 @@ public class BancoDadosToDo extends SQLiteOpenHelper {
 
     private SQLiteDatabase db;
 
-    private BancoDadosToDo(Context context){
+    BancoDadosToDo(Context context){
         super(context, NOME_DB, null, VERSAO_DB);
     }
 
